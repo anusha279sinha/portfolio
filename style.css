@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 40px 0;
+  color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.hero span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* CARD SECTIONS */
+.card {
+  background: white;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #d8bd0e;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* EXPERIENCE */
+.exp {
+  margin-bottom: 20px;
+}
+
+.exp h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.exp p {
+  margin: 5px 0;
+}
+
+.exp small {
+  color: #777;
+}
+
+/* PROJECTS */
+.project {
+  margin-bottom: 15px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #667eea;
+  font-weight: 500;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  font-size: 14px;
+}
